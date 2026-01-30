@@ -16,8 +16,8 @@ Le projet est organisé comme suit dans le dossier `src/` :
 
 | Fichier | Description |
 | :--- | :--- |
-| **Application.java** | Classe principale pour publier le service SOAP. |
-| **MonserviceWeb.java** | Définit les opérations et la logique du service. |
+| **Application.java** | Publication du service (Endpoint). |
+| **MonserviceWeb.java** | Logique des opérations (Somme, Conversion). |
 | **Etudiant.java** | Modèle de données représentant un étudiant. |
 
 ## Déploiement du Service
