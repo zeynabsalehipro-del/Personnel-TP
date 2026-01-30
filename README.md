@@ -44,5 +44,4 @@ La classe `Etudiant` représente un **type SOAP complexe**. Elle utilise l'annot
 * `nom` (String)
 * `moyenne` (double)
 
----
-*Projet réalisé dans le cadre des travaux pratiques de Zeynab SALEHI.*
+
