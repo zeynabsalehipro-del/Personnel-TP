@@ -5,11 +5,11 @@ Ce projet implémente un **Service Web SOAP** en utilisant **JAX-WS** en Java.
 L'objectif est d'exposer des opérations simples et de démontrer l'échange de **valeurs primitives** et d'**objets complexes** via le protocole SOAP. Le service est publié localement et peut être testé avec des outils comme **SoapUI**.
 
 ## Technologies Utilisées
-* **Java 8** : Langage de programmation.
-* **SOAP** (Simple Object Access Protocol) : Protocole de communication.
-* **JAX-WS** (Java API for XML Web Services) : Framework pour les services web.
-* **JAXB** : Pour le mapping objet-XML.
-* **SoapUI** : Outil de test pour les services web.
+* **IDE** : IntelliJ IDEA 2025.3.2
+* **JDK** JDK : Java 8 (v1.8)
+* **Tests**  : SoapUI 5.6.0
+* **Frameworks** : JAX-WS & JAXB
+* **Protocole** :  SOAP
 
 ## Structure du Projet
 Le projet est organisé comme suit dans le dossier `src/` :
