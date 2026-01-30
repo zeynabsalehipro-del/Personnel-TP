@@ -1,17 +1,17 @@
 # Service Web SOAP 
 
-## 1. Introduction
+## Introduction
 Ce projet implémente un **Service Web SOAP** en utilisant **JAX-WS** en Java. 
 L'objectif est d'exposer des opérations simples et de démontrer l'échange de **valeurs primitives** et d'**objets complexes** via le protocole SOAP. Le service est publié localement et peut être testé avec des outils comme **SoapUI**.
 
-## 2. Technologies Utilisées
+## Technologies Utilisées
 * **Java 8** : Langage de programmation.
 * **SOAP** (Simple Object Access Protocol) : Protocole de communication.
 * **JAX-WS** (Java API for XML Web Services) : Framework pour les services web.
 * **JAXB** : Pour le mapping objet-XML.
 * **SoapUI** : Outil de test pour les services web.
 
-## 3. Structure du Projet
+## Structure du Projet
 Le projet est organisé comme suit dans le dossier `src/` :
 
 | Fichier | Description |
@@ -20,14 +20,14 @@ Le projet est organisé comme suit dans le dossier `src/` :
 | **MonserviceWeb.java** | Définit les opérations et la logique du service. |
 | **Etudiant.java** | Modèle de données représentant un étudiant. |
 
-## 4. Déploiement du Service
+## Déploiement du Service
 Le service est publié à l'adresse suivante :
 `http://localhost:8888/`
 
 Le fichier de description **WSDL** est accessible via :
 `http://localhost:8888/?wsdl`
 
-## 5. Description du Web Service
+## Description du Web Service
 La classe `MonserviceWeb` est exposée en tant que service SOAP avec l'annotation :
 `@WebService(targetNamespace = "http://www.polytech.fr")`
 
@@ -36,7 +36,7 @@ La classe `MonserviceWeb` est exposée en tant que service SOAP avec l'annotatio
 * **`somme`** : Calcule la somme de deux nombres décimaux.
 * **`getEtudiant`** : Retourne un objet `Etudiant` en fonction d'un identifiant.
 
-## 6. Modèle de Données (Classe Etudiant)
+## Modèle de Données (Classe Etudiant)
 La classe `Etudiant` représente un **type SOAP complexe**. Elle utilise l'annotation `@XmlRootElement` pour la sérialisation.
 
 **Attributs :**
