@@ -6,7 +6,6 @@ L'objectif est d'exposer des opérations simples et de démontrer l'échange de 
 
 ## 2. Technologies Utilisées
 * **Java 8** : Langage de programmation.
-* **SOAP** (Simple Object Access Protocol) : Protocole de communication.
 * **JAX-WS** (Java API for XML Web Services) : Framework pour les services web.
 * **JAXB** : Pour le mapping objet-XML.
 * **SoapUI** : Outil de test pour les services web.
