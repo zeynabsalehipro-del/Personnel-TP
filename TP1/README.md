@@ -7,7 +7,7 @@ L'objectif est d'exposer des opérations simples et de démontrer l'échange de 
 ## Technologies Utilisées
 * **IntelliJ** 
 * **Postman**
-* **Visual Studio** (Java 8) 
+* **Java**
 * **SoapUI** 
 
 ## Structure du Projet
@@ -28,7 +28,7 @@ Le fichier de description **WSDL** est accessible via :
 
 ## Description du Web Service
 La classe `MonserviceWeb` est exposée en tant que service SOAP avec l'annotation :
-`@WebService(targetNamespace = "http://www.polytech.fr")`
+`@WebService`
 
 ### Opérations disponibles :
 * **`convertir`** : Convertit une valeur numérique (multiplication par 0.9).
