@@ -9,9 +9,9 @@ L'objectif est d'exposer des opérations simples et de démontrer l'échange de 
 * **Postman**
 * **Java**
 * **SoapUI**
-* **packages** :
-  JAX-WS (Java API for XML Web Services)
-  JAXB (for XML object mapping)
+* **packages**
+* JAX-WS (Java API for XML Web Services)
+* JAXB (for XML object mapping)
 
 ## Structure du Projet
 Le projet est organisé comme suit dans le dossier `src/` :
