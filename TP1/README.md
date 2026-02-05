@@ -7,8 +7,7 @@ L'objectif est d'exposer des opérations simples et de démontrer l'échange de 
 ## Technologies Utilisées
 * **IntelliJ** 
 * **Postman**
-* **Java**
-* 8
+* **Java** 8
 * **SoapUI**
 * packages :
   * `JAX-WS (Java API for XML Web Services)`
