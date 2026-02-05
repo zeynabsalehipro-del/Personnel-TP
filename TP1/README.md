@@ -1,7 +1,7 @@
 # Service Web SOAP 
 
 ## Introduction
-L'objectif principal de ce travail pratique est le **développement d'un service web** en utilisant Java. Ce projet vise à approfondir la compréhension du fonctionnement des services web, notamment leur description via le fichier **WSDL** et les mécanismes de communication entre un client et le serveur.
+'L'objectif principal de ce travail pratique est le **développement d'un service web** en utilisant Java. Ce projet vise à approfondir la compréhension du fonctionnement des services web, notamment leur description via le fichier **WSDL** et les mécanismes de communication entre un client et le serveur.'
 
 ## Description Technique
 Ce travail pratique implémente un **Service Web SOAP** en utilisant **JAX-WS** en Java. L'objectif est d'exposer des opérations simples et de démontrer l'échange de **valeurs primitives** ainsi que d'**objets complexes** via le protocole SOAP.
