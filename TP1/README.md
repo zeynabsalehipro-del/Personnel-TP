@@ -1,4 +1,4 @@
-# Service Web SOAP 
+# RMI et Services Web SOAP
 
 ## Introduction
 L'objectif principal de ce travail pratique est le **développement d'un service web** en utilisant Java. Ce projet vise à approfondir la compréhension du fonctionnement des services web, notamment leur description via le fichier **WSDL** et les mécanismes de communication entre un client et le serveur.
