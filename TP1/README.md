@@ -1,8 +1,16 @@
 # Service Web SOAP 
 
 ## Introduction
-Ce projet implémente un **Service Web SOAP** en utilisant **JAX-WS** en Java. 
-L'objectif est d'exposer des opérations simples et de démontrer l'échange de **valeurs primitives** et d'**objets complexes** via le protocole SOAP. Le service est publié localement et peut être testé avec des outils comme **SoapUI**.
+L'objectif principal de ce travail pratique est le **développement d'un service web** en utilisant Java. Ce projet vise à approfondir la compréhension du fonctionnement des services web, notamment leur description via le fichier **WSDL** et les mécanismes de communication entre un client et le serveur.
+
+## Description Technique
+Ce travail pratique implémente un **Service Web SOAP** en utilisant **JAX-WS** en Java. L'objectif est d'exposer des opérations simples et de démontrer l'échange de **valeurs primitives** ainsi que d'**objets complexes** via le protocole SOAP.
+
+### Pourquoi SOAP ?
+Le protocole **SOAP** (Simple Object Access Protocol) permet à des applications hétérogènes de communiquer entre elles via le réseau. Dans ce projet :
+* **Format des données :** Les échanges sont structurés en **XML**.
+* **Protocole de transport :** Les messages sont transmis via **HTTP**.
+* **Accès :** Une fois déployé, le service est accessible via une **URL** spécifique et peut être testé avec des outils comme **SoapUI** ou **Postman**.
 
 ## Technologies Utilisées
 * **IntelliJ** 
