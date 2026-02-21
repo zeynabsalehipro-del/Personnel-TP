@@ -1,8 +1,7 @@
 from flask import Flask, jsonify, request
 app=Flask(__name__)
-cards=[
-    {"id":1,"name":"Dark Magician","ATK":2500,"DEF":2100, "Level"=8, "Description"="A faire Magicien Sombre"},
-    {"id":2,"name":"Blue-Eyes White Dragon","ATK":3000,"DEF":2500, "Level"=8, "Description"="A faire Dragon Blanc aux Yeux Bleus"}
+cards = [
+    {"id":1, "name":"Dark Magician", "ATK":2500, "DEF":2100, "Level":8, "Description":"A faire Magicien Sombre"},
 ]
 
 @app.route('/')
