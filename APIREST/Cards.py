@@ -7,7 +7,7 @@ cards = [
 
 @app.route('/')
 def home():
-    return "Bienvenue dans l'API de gestion de carte !"
+    return "Bienvenue dans l'API de gestion de carte Yu-Gi-Oh !"
 
 @app.route('/cards', methods=['GET'])
 def get_cards():
