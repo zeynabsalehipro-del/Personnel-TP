@@ -4,7 +4,6 @@ students=[
     {"id":1,"name":"Youcef","age":21},
     {"id":2,"name":"Samir","age":41},
 ]
-
 @app.route('/')
 def home():
     return "Bienvenue dans l'API de gestion des étudiants !"
@@ -33,7 +32,6 @@ def get_students_by_id(id):
     if student:
         return jsonify(student)
     return jsonify({"erreur":"l'étudiant n'existe pas !"}),404
-
 #Mettre a jour un étudiant PUT
 @app.route('/students/<int:id>', methods=['PUT'])
 def update_students(id):
