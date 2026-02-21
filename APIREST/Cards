@@ -95,10 +95,3 @@ def delete_students(id):
 if __name__=='__main__':
     print("Checkpoint")
     app.run(debug=True)
-
-#Postman : GET http://127.0.0.1:5000/students retourne la liste des cartes
-#POST http://127.0.0.1:5000/students avec {"name":"Mathurin","level": 5, "Atk"=1500, "Def"=1200} dans Body sous forme raw ajoute une carte nommé Mathurin, un niveau de 5, une attaque de 1500
-# et une défense de 1200
-#GET http://127.0.0.1:5000/students/2 retourne uniquement la carte avec l'id 2
-#PUT http://127.0.0.1:5000/students/1 avec {"name":"Mathurin","level": 5, "Atk"=1500, "Def"=1200} dans Body sous forme raw change le nom, le level, l'attaque et la défense de la carte qui possède l'id 1. Le nom
-# devient Mathurin, le niveau de 5, l'attaque de 1500 et la défense de 1200
